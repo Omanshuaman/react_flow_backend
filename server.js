@@ -12,7 +12,7 @@ app.use(express.json()); // to accept json data
 app.use(
   cors({
     origin: "https://react-flow-backend.onrender.com",
-    origin: "https://react-flow-frontend.onrender.com/",
+    origin: "https://react-flow-frontend.onrender.com",
     methods: "GET,POST,PUT,DELETE",
     credentials: true,
   })
